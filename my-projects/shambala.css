@@ -1,0 +1,509 @@
+.navbar {
+    background-color: rgb(90,57,194);
+    display: flex;
+    align-content: space-between;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 30 30%22%3E%3Cpath stroke%3D%22rgba%28155%2C 155%2C 155%2C 1%29%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-miterlimit%3D%2210%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E');
+}
+#img1{
+    width: 150px;
+}
+header{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 10px black;
+
+}
+.div{
+    position: relative;
+    bottom: 100px;
+}
+#op1,#op2,#op3{
+    border: none;
+    background-color:transparent;
+    margin-left: 10px;
+    width: 10px;
+}
+#navbarNav{
+    position: absolute;
+    left: 500px;
+    padding: 10px;
+}
+#butn{
+    width: 100%;
+    background: linear-gradient(90deg, #aca5d5, #a928d8);
+    color: #2c2525;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.herobanner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:#fcfcfc;
+    min-height: 100vh;
+    padding-bottom: 400px;
+    padding-top: 200px;
+}
+.herobanner h1 {
+    font-size: 70px;
+    color: #000c60;
+    font-weight: 800;
+}
+a, div, p, h1, h2, h3, h4, h5, h6, button, img {
+    transition: 0.5s all;
+}
+body{
+    background: #fcfcfc;
+    color: #2c2525;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+    margin: 0;
+}
+.btns a{
+    margin: 0 10px;
+}
+btn1{
+    position: relative;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #000c60 !important;
+}
+a{
+    outline: 0;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn {
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 10px 24px !important;
+    border-radius: 8px;
+}
+.btns a {
+    margin: 0 10px;
+}
+.btn span{
+    position: relative;
+    z-index: 2;
+}
+.btn{
+    position: relative;
+}
+.pathone {
+    position: absolute;
+    right: 16%;
+    top: 38%;
+    animation: zoom-in-zoom-out 10s ease infinite;
+}
+.pathtwo{
+    position: absolute;
+    right: 22%;
+    top: 82%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}
+.paththree{
+    position: absolute;
+    right: 22%;
+    top: 0%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}.pathfour{
+    position: absolute;
+    right: 0%;
+    top: 20%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}
+.herobg {
+    background-image: url(./herobg.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* top: 0; */
+    background-size: cover;
+    background-position: bottom center;
+    height: 70%;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.services {
+    position: relative;
+    margin-top: -186px;
+ }
+.row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+.pcard.left{
+    margin-top: 100px;
+}
+.pcard{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ccc;
+    margin: 0 10px;
+} 
+.pimg imag {
+    border-radius: 10px;
+}  
+.pcnt{
+    padding: 40px 10px 10px;
+}
+.pcnt h4 {
+    font-size: 22px;
+    font: weight 700 ;
+}
+.pcnt p{
+    font-size: 14px;
+}
+.pcnt p+p{
+    margin: 0;
+    text-align: right;
+}
+.pcnt a {
+    color: #a474a4;
+}
+.pcard.right {
+    margin-top: 100px;
+}
+.pcnt center{
+    position: relative;
+    z-index: 3;
+}
+.container {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pcard:hover{ 
+    transform: scale(1.1)
+}
+.pcard:hover img{
+     transform: scale(1.1)
+    }
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.1, 0.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .features{
+    padding: 150px 0 200px 0;
+    position: relative;
+  }
+  .features .container{
+    position: relative;
+    z-index: 3;
+  }
+  .features h5{
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  .features h5 span{
+    display: inline-block;
+    background: #ffebeb;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color:#000c60 ;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .features h4 {
+    font-size: 34px;
+    margin: 0 0 70px;
+    text-align: center;
+    line-height: 39px;
+    font-weight: 400;
+  }
+  .fbox{
+    display: flex;
+
+    box-shadow: 0 0 30px #0000000a;
+    text-align: center;
+    background: #ffffff7d;
+    margin: 0 50px;
+    position: relative;
+  }
+  .fone{
+    background: transparent;
+    box-shadow: 5px 5px 5px #dee2e6;
+    height: 300px;
+  }
+  .blur1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.blur2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background:transparent;
+}
+.ropeline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 11%;
+    animation: zoom-in-zoom-out1 5s ease infinite;
+    opacity: 0.3;
+}
+.trusted {
+    background-image: url(https://konadigital.in/images/mapimg.png);
+    padding: 50px 0 150px;
+    position: relative;
+}
+.trusted h3 {
+    color: #ddd;
+    margin: 0 0 70px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.trusted h3 span {
+    color: #8b71bb ;
+    font-weight: 700;
+}
+.cardbox{
+    box-shadow: 0 3px 10px #cccccc99;
+    padding: 30px;
+    border-radius: 8px;
+    background: #ffffffa6;
+    margin: 20px 10px 20px;
+    transition: transform 0.3s ease;
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dots button.active{
+    background-color: black !important;
+}
+.maping{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* Trusted Section */
+#trusted {
+    padding: 40px 20px;
+    background-color: #141212;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.owl-carousel .hoverable {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cardbox:hover {
+    transform: translateY(-5px);
+}
+
+.cardbox p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.userinfo img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.userinfo span {
+    font-size: 16px;
+    color: #333;
+}
+
+.userinfo strong {
+    display: block;
+    font-size: 18px;
+    color: #000;
+}
+
+
+
+
+.locations{
+    padding: 70px 0 ;
+    position: relative;
+}
+.locations .row{
+    align-items: center;
+    text-align: center;
+}
+.locations h5{
+    margin: 0 0 30px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.padt100{
+    padding: top 150px;
+}
+.blur3{
+    position: absolute;
+    left: 0;
+    top: -15px;
+}
+.rope2{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 21%;
+    opacity: 0.2;
+    animation: zoom-in-zoom-out2 5s ease infinite;
+}
+.blur4{
+    position: absolute;
+    right: 0;
+    bottom: -100%;
+}
+.faq{
+    padding: 100px 0;
+    position: relative;
+}
+.faq h3 {
+    margin: 0 0 70px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.qarow{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.collapse:not(.show){
+    display: none;
+}
+h2{
+    font-size: 20px;
+}
+.accordion button {
+    border: none;
+    background: none;
+    padding: 10px 0 ;
+    font-weight: 500;
+}
+.collapsible-link{
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+.connect{
+    padding: 50px 0 ;
+    background: linear-gradient(1deg  #e4edf5, #fff);
+}
+.connect.row {
+    align-items: center;
+    text-align: center;
+}
+.connect h4 {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #5938c3, #a02ad6);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+.connect p{
+    margin: 0 0 20px;
+}
+.ftlogo{
+    max-height: 40px;
+    margin: 0 0 10px;
+}
+.footer{
+    position: relative;
+    padding: 70px 0 50px;
+}
+.footer p{
+    font-size: 11px;
+    line-height: normal;
+    padding-right: 49px;
+}
+.footer h4{
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+.footer ul li{
+    padding: 0 0 10px;
+}
+
+
+.herobg {
+    background-image: url(./herobg.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: bottom center;
+    height: 10%;
+}
+.fticon{
+    position: absolute;
+    right: 15px;
+    top: 87px;
+    width: 169px;
+}
